@@ -1,0 +1,8 @@
+applications:
+- path: build/libs/bluemixlinebot.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Line Bot Al Quran
+  host: Line-Bot Al Quran
+  disk_quota: 1024M
